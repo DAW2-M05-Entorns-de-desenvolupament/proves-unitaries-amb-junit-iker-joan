@@ -1,15 +1,5 @@
-
 import java.util.Scanner;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author alumne
- */
 public class programajoaniker {
     
     public static void main(String[] args){
@@ -23,5 +13,18 @@ public class programajoaniker {
     numero2 = reader.nextInt();
         int resultado = numero1+numero2;
     System.out.println("La suma es " + numero1 + " + " + numero2 + " = " + resultado);
-}
+    }
+
+   public static void perell(String[] args){
+
+     Scanner keyb = new Scanner(System.in);
+        System.out.println("Introdueix un nombre: ");
+        int Num1 = keyb.nextInt();
+        if (Num1%2 == 0) {
+            System.out.println("És parell");
+        }
+        else {
+            System.out.println("És imparell");
+        }
+   }
 }
